@@ -1,0 +1,19 @@
+<!DOCTAPE HTML>
+<html>
+<head>таблица</head>
+<body>
+
+<table border=1>
+<th> trevel agency </th>
+<tr>
+<td>verona</td>
+<td><iframe id="Verona"
+title="Verona"
+ width="500"
+    height="400"
+img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpbJCRmYPbRFXJ0iGwcfRxV9LPuD6ozeMAXZqiemzfW9bV_z2f"></td>
+<td><a href="Верона – город в области Венеция на севере Италии. Район старого города расположен на изгибе реки Адидже. Верона известна тем, что здесь происходили события трагедии У. Шекспира "Ромео и Джульетта"."></a></td>
+</tr>
+</table>
+</body>
+</html>
