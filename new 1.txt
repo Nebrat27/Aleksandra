@@ -1,0 +1,8 @@
+<html>
+<head>таблица</head>
+<body>
+
+
+<a href="verona.html" > Verona </a>
+</body>
+</html>

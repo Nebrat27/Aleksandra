@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Форма для коктейлей</title>
+	</head>
+	<style>
+	.set_one {
+    min-height: 474px;
+    position: relative;
+}
+</style>
+<style>
+.set_two {
+min-height:317px
+width: 500px;
+float:left;
+margin-bottom:25px;
+}
+</style>
+<style>
+legend {
+    color: #fff;
+    text-shadow: 1px -1px 1px rgba(98, 98, 98, 0.8);
+    border-radius: 17px;
+    padding: 1px 58px 2px 48px;
+    background: linear-gradient(to bottom, #f9a405, #d15100);
+}
+</style>
+<style>
+fieldset {
+    background: linear-gradient(to bottom, #eeeeee, #fff, #eeeeee);
+    border-radius: 6px;
+    margin-bottom: 18px;
+    border: 1px solid;
+    border-color: #eeeeee #d4d4d4 #d2d2d2 #d4d4d4;
+    padding: 18px 0 0 19px;
+    box-sizing: border-box;
+}
+</style>
+<style>
+.logo-text {
+    position: absolute;
+    top: 55px;
+    left: 565px;
+}
+</style>
+<style>
+.logo-drink {
+    position: absolute;
+    top: 135px;
+    left: 535px;
+}
+</style>
+<style>
+.legend_two {
+    background: linear-gradient(#a3d604, #358c01);
+    padding: 1px 43px 3px 45px;
+}
+</style>
+	<body>
+<form action="/coctails" method="get">
+<fieldset class="set_one" >
+<legend>Описание</legend>
+<img src="https://akorol777.github.io/cocktail/img/logo-text.png" class="logo-text">
+<img src="https://akorol777.github.io/cocktail/img/logo-drink.png" class="logo-drink">
+Название коктейля:
+<br>
+<input type="text">
+<br>
+<br>
+Альтернативные названия (через запятую):
+<br>
+<input type="text">
+<br>
+<br>
+Краткое описание:
+<br>
+<textarea type="text" rows="8" cols="50">
+</textarea>
+<br>
+<br>
+Инструкция для приготовления:
+<br>
+<textarea type="text" rows="8" cols="50">
+</textarea>
+</fieldset>
+<fieldset class="set_two">
+<legend class="legend_two">Ингридиенты</legend>
+<br>
+<br>
+ <pre>
+ Название:               Кол-во:            Единица:    Украшения:</pre>
+<br>
+<select name="название">
+<option value="Bitter Lemon">Bitter Lemon</option>
+<option value="настойка лемонная">настойка лемонная</option>
+<option value="Red Bull">Red Bull</option>
+<option value="Лимончелло">Лимончелло</option>
+<option value="Ликер Малибу">Ликер Малибу</option>
+<option value="нет">нет</option>
+</select>
+<input type="number">
+<select name="Единица">
+<option value="Стакан">Стакан</option>
+<option value="мл.">мл.</option>
+<option value="Ложка">Ложка</option>
+<option value="Литр">Литр</option>
+<option valur="-">-</option>
+</select>
+<input type="checkbox" checked>
+<br>
+<br>
+<select name="название">
+<option value="Bitter Lemon">Bitter Lemon</option>
+<option value="настойка лемонная" selected>настойка лемонная</option>
+<option value="Red Bull">Red Bull</option>
+<option value="Лимончелло">Лимончелло</option>
+<option value="Ликер Малибу">Ликер Малибу</option>
+<option value="нет">нет</option>
+</select>
+<input type="number">
+<select name="Единица">
+<option value="Стакан">Стакан</option>
+<option value="мл.">мл.</option>
+<option value="Ложка">Ложка</option>
+<option value="Литр">Литр</option>
+<option valur="-">-</option>
+</select>
+<input type="checkbox" checked>
+<br>
+<br>
+<select name="название">
+<option value="Bitter Lemon">Bitter Lemon</option>
+<option value="настойка лемонная">настойка лемонная</option>
+<option value="Red Bull">Red Bull</option>
+<option value="Лимончелло">Лимончелло</option>
+<option value="Ликер Малибу">Ликер Малибу</option>
+<option value="нет" selected>нет</option>
+</select>
+<input type="number">
+<select name="Единица">
+<option value="Стакан">Стакан</option>
+<option value="мл." selected>мл.</option>
+<option value="Ложка">Ложка</option>
+<option value="Литр">Литр</option>
+<option valur="-">-</option>
+</select>
+<input type="checkbox" checked>
+<br>
+<br>
+<select name="название">
+<option value="Bitter Lemon">Bitter Lemon</option>
+<option value="настойка лемонная">настойка лемонная</option>
+<option value="Red Bull">Red Bull</option>
+<option value="Лимончелло">Лимончелло</option>
+<option value="Ликер Малибу">Ликер Малибу</option>
+<option value="нет" selected>нет</option>
+</select>
+<input type="number">
+<select name="Единица">
+<option value="Стакан">Стакан</option>
+<option value="мл.">мл.</option>
+<option value="Ложка">Ложка</option>
+<option value="Литр">Литр</option>
+<option valur="-" selected>-</option>
+</select>
+<input type="checkbox">
+<br>
+<br>
+<select name="название">
+<option value="Bitter Lemon">Bitter Lemon</option>
+<option value="настойка лемонная">настойка лемонная</option>
+<option value="Red Bull">Red Bull</option>
+<option value="Лимончелло">Лимончелло</option>
+<option value="Ликер Малибу">Ликер Малибу</option>
+<option value="нет" selected>нет</option>
+</select>
+<input type="number">
+<select name="Единица">
+<option value="Стакан">Стакан</option>
+<option value="мл.">мл.</option>
+<option value="Ложка">Ложка</option>
+<option value="Литр">Литр</option>
+<option valur="-" selected>-</option>
+</select>
+<input type="checkbox">
+<br>
+<br>
+<select name="название">
+<option value="Bitter Lemon">Bitter Lemon</option>
+<option value="настойка лемонная">настойка лемонная</option>
+<option value="Red Bull">Red Bull</option>
+<option value="Лимончелло">Лимончелло</option>
+<option value="Ликер Малибу">Ликер Малибу</option>
+<option value="нет" selected>нет</option>
+</select>
+<input type="number">
+<select name="Единица">
+<option value="Стакан">Стакан</option>
+<option value="мл.">мл.</option>
+<option value="Ложка">Ложка</option>
+<option value="Литр">Литр</option>
+<option valur="-"selected>-</option>
+</select>
+<input type="checkbox">
+<br>
+<br>
+<select name="название">
+<option value="Bitter Lemon">Bitter Lemon</option>
+<option value="настойка лемонная">настойка лемонная</option>
+<option value="Red Bull">Red Bull</option>
+<option value="Лимончелло">Лимончелло</option>
+<option value="Ликер Малибу">Ликер Малибу</option>
+<option value="нет"selected>нет</option>
+</select>
+
+<input type="number">
+<select name="Единица">
+<option value="Стакан">Стакан</option>
+<option value="мл.">мл.</option>
+<option value="Ложка">Ложка</option>
+<option value="Литр">Литр</option>
+<option valur="-" selected>-</option>
+</select>
+<input type="checkbox">
+</form>
+</body>
+</html>
