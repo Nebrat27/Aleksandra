@@ -1,0 +1,6 @@
+<!DOCTAPE HTML>
+<html>
+<head>Версия 5</head>
+<body> текст 
+</body>
+</html>
